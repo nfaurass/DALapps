@@ -6,6 +6,6 @@
    </head>
    <body>
       <div id='player'/>
-      <script>const QueryString=window.location.search; const urlParams=new URLSearchParams(QueryString); let url=urlParams.get("src"); // Setup the player const player=jwplayer("player").setup({default: false, aspectratio: "16:9", width: "100%", type: "hls", autostart: true, file: url}); </script>
+      <script>const QueryString=window.location.search; const urlParams=new URLSearchParams(QueryString); let url=urlParams.get("src"); const player=jwplayer("player").setup({default: false, aspectratio: "16:9", width: "100%", type: "hls", autostart: true, file: url}); </script>
    </body>
 </html>
